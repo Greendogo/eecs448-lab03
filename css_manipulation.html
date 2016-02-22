@@ -14,8 +14,8 @@
       <li><a href="profile.html">Exercise 3: Profile</a></li>
       <li><a href="css_manipulation.html">Exercise 4: CSS Manipulation</a></li>
     </ul>
-    <div id="dummy">
-      <p>Shabby chic tofu waistcoat disrupt. Flannel waistcoat plaid whatever
+    <div>
+      <p id="dummy">Shabby chic tofu waistcoat disrupt. Flannel waistcoat plaid whatever
         kombucha mustache. Skateboard cronut lumbersexual, intelligentsia
         distillery seitan tacos pour-over. Aesthetic dreamcatcher portland
         pour-over paleo shoreditch. Green juice gluten-free truffaut narwhal
@@ -23,51 +23,25 @@
         Truffaut gluten-free brooklyn kickstarter heirloom cray. Paleo
         truffaut crucifix banjo cronut, tumblr asymmetrical intelligentsia
         tousled aesthetic cray post-ironic umami green juice.</p>
-
-      <p>Slow-carb pug dreamcatcher, kickstarter raw denim lo-fi synth cornhole
-        shoreditch XOXO fanny pack. Salvia celiac intelligentsia migas heirloom,
-        next level literally fingerstache austin XOXO echo park mixtape kitsch
-        banjo. Fap artisan roof party meditation viral gentrify. Readymade swag
-        thundercats intelligentsia seitan. Gastropub portland you probably haven't
-         heard of them, DIY bitters beard pinterest. Pop-up artisan quinoa,
-         humblebrag stumptown wayfarers kogi. Master cleanse intelligentsia 3 wolf
-          moon semiotics kickstarter knausgaard.</p>
-
-      <p>Helvetica whatever church-key, retro portland tousled brooklyn artisan
-        pickled. Kinfolk before they sold out humblebrag helvetica scenester.
-        Farm-to-table chambray williamsburg wolf semiotics typewriter small batch.
-         Aesthetic roof party stumptown pitchfork franzen, pinterest put a bird
-         on it fashion axe vice occupy health goth echo park asymmetrical listicle
-          XOXO. Mumblecore paleo wolf intelligentsia leggings, butcher kogi 8-bit
-          blue bottle. Ramps williamsburg listicle bitters paleo iPhone. Green
-          juice iPhone ethical, direct trade vice PBR&B helvetica.</p>
-
-      <p>Deep v XOXO mustache, wayfarers cold-pressed YOLO waistcoat biodiesel
-        organic. Thundercats tacos kitsch pinterest. Cornhole mustache listicle,
-        williamsburg 90's +1 butcher lumbersexual shabby chic austin dreamcatcher
-        bicycle rights trust fund. Four dollar toast kitsch deep v iPhone YOLO,
-        locavore tousled DIY blog seitan pug etsy stumptown venmo hammock. Hammock
-         crucifix farm-to-table, try-hard butcher chia tattooed pug listicle
-         celiac scenester cliche YOLO. Sriracha franzen waistcoat fingerstache
-         umami, fixie typewriter. Kickstarter mustache thundercats cliche,
-         gastropub PBR&B locavore williamsburg hoodie 90's tumblr.</p>
     </div>
-    <div>
+    <div id="forms">
       <form align="center">
         <h1>Border Color and Width: (0-255)</h1>
-        <h1> Red value:</h1> <input type="text" id="redText1">
-        <h1> Green value:</h1> <input type="text" id="greenText1">
-        <h1> Blue value:</h1> <input type="text" id="blueText1">
-        <h1> Width value:</h1> <input type="text" id="widthText">
+        <h1> Red value:</h1> <input type="text" id="redText1" value="255">
+        <h1> Green value:</h1> <input type="text" id="greenText1" value="0">
+        <h1> Blue value:</h1> <input type="text" id="blueText1" value="0">
+        <h1> Width value:</h1> <input type="text" id="widthText" value="7">
       </form>
       <button onclick="borderChange()">Submit</button>
       <form align="center">
         <h1>Background Color:  (0-255)</h1>
-        <h1> Red value:</h1> <input type="text" id="redText2">
-        <h1> Green value:</h1> <input type="text" id="greenText2">
-        <h1> Blue value:</h1> <input type="text" id="blueText2">
+        <h1> Red value:</h1> <input type="text" id="redText2" value="0">
+        <h1> Green value:</h1> <input type="text" id="greenText2" value="255">
+        <h1> Blue value:</h1> <input type="text" id="blueText2" value="255">
       </form>
       <button onclick="backgroundChange()">Submit</button>
+      <br><br>
     </div>
+    <script src="css_manipulation.js"></script>
   </body>
 </html>
