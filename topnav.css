@@ -1,3 +1,7 @@
+/* Fancy menu styling found at w3schools here:
+http://www.w3schools.com/howto/howto_js_topnav.asp
+*/
+
 /* Remove margins and padding from the list, and add a black background color */
 ul.topnav {
     list-style-type: none;
